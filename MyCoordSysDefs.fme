@@ -452,3 +452,16 @@ COORDINATE_SYSTEM_DEF Indian1960-111-Vietnam               \
    Y_OFF 0                                                   \
    ZERO_X   0.0001                                           \
    ZERO_Y   0.0001                                              
+   COORDINATE_SYSTEM_DEF Vietnam_phep_chieu_hinh_non    \
+       GROUP Vietnam                          \        
+       DESC_NM "Vietnam-Lambert-Conformal-Conic"                    \        
+       SOURCE "LE VIET THANH"  \        
+       DT_NAME VN2000                          \        
+       ORG_LAT 4.0                            \
+       ORG_LNG 108.0                          \
+       PARM1 11.0                            \
+       PARM2 21.0                          \
+       PROJ LM                                \        
+       UNIT METER                             \        
+       X_OFF 1000000                           \        
+       Y_OFF 0        
